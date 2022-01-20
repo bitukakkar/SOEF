@@ -1,0 +1,12 @@
+export { default as dataHoverMarker } from "./data.svg";
+export { default as furnitureHoverMarker } from "./furniture.svg";
+export { default as agentsHoverMarker } from "./agents.svg";
+export { default as avatarHoverMarker } from "./avatar.svg";
+export { default as buildingHoverMarker } from "./building.svg";
+export { default as buyerHoverMarker } from "./buyer.svg";
+export { default as financialHoverMarker } from "./financial.svg";
+export { default as iotHoverMarker } from "./iot.svg";
+export { default as sellerHoverMarker } from "./seller.svg";
+export { default as testHoverMarker } from "./test.svg";
+export { default as vehicleHoverMarker } from "./vehicle.svg";
+export { default as viewerHoverMarker } from "./viewer.svg";

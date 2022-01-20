@@ -1,0 +1,12 @@
+export { ReactComponent as Robot } from "./robot.svg";
+export { ReactComponent as Vehicle } from "./vehicle.svg";
+export { ReactComponent as Avatar } from "./avatar.svg";
+export { ReactComponent as Building } from "./building.svg";
+export { ReactComponent as Buyer } from "./buyer.svg";
+export { ReactComponent as Data } from "./data.svg";
+export { ReactComponent as Financial } from "./financial.svg";
+export { ReactComponent as Furniture } from "./furniture.svg";
+export { ReactComponent as Iot } from "./iot.svg";
+export { default as service } from "./service.png";
+export { ReactComponent as Test } from "./test.svg";
+export { ReactComponent as Viewer } from "./viewer.svg";

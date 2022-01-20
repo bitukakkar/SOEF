@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  soef-web-frontend:
+    container_name: soef-web-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3000:3000

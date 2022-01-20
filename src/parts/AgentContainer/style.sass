@@ -1,0 +1,48 @@
+.MuiButton-root
+   &.button
+      background-color: var(--secondary-colour-2) !important
+      color: #ffffff !important
+      &:hover
+         background-color: var(--secondary-colour-2-darker) !important
+
+.search-input-container
+   width: 100%
+   box-sizing: border-box
+   padding: 0
+   max-width: 294px
+
+.search-input-box
+   width: 100%
+   position: relative
+   &:before
+      content: ""
+      background-image: url('../../assets/search_icon.png')
+      background-size: contain
+      width: 20px
+      height: 20px
+      background-position: center center
+      position: absolute
+      top: 50%
+      left: 15px
+      transform: translateY(-50%)
+
+.search-input
+   width: 100%
+   height: 48px
+   background-color: #fff
+   border-radius: 6px
+   outline: 0
+   border: 0
+   box-sizing: border-box
+   padding-left: 45px
+   font: normal normal 400 14px/19.6px 'Inter', sans-serif
+
+.filter-container
+   width: 16px
+   height: 20px
+   position: relative
+
+.filter-icon
+   width: 100%
+   height: 100%
+   cursor: pointer
